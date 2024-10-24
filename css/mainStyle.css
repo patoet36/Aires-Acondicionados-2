@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------------------------------------------ENCABEZADO-----------------------------------------------------------------------------------*/
+
+#encabezado{
+    width: 100%;
+    background-color: #A2BCC5;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .logoTitulo img{
+    margin: 10px 15px 4px 30px;
+    align-items: left;
+    width: 100px;
+    height: 100px;
+            
+    }
+    .tituloHeader{
+        margin-left: 70px;
+    }
+}
+
+/*-----------------------------------------MENU----------------------------------------------*/
+
+.grupoBotones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #A2BCC5;
+}
+
+.grupoBotones a:hover{
+    color: #049DD9;
+}
+
+.grupoBotones a{
+    color: black;
+    text-decoration: none;
+}
+
+.gradient1{
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(to top, #D9E1E8, #A2BCC5 );
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.beneficios{
+    text-align: center;
+}
+
+#grid1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parrafo1{
+    text-align: center;
+}
+
+.col-lg-3{
+    padding: 0 50px 0 50px;
+}
+
+.card{
+    background-color: #05C7F2;
+}
+
+#imgGrid2 img{
+    width: 500px;
+    height: 325px;
+}
+
+#parrafoGrid2{
+    margin: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+#row1{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#row2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#row3{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#img3grid2 img{
+    width: 500px;
+    height: 325px;
+}
+
+#parrafoFAQ{
+    text-align: center;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #D9E1E8;
+}
+
+/*---------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+
+.gradient2{
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(to top,#A2BCC5, #D9E1E8);
+}
+
+.footer{
+    background-color: #A2BCC5;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a:hover{
+    color: #049DD9;
+}
+.footer a{
+    color: #000;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: none;
+}
+.footer hr{
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}

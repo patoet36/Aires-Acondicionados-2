@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------------------------------------------ENCABEZADO-----------------------------------------------------------------------------------*/
+
+#encabezado{
+    width: 100%;
+    background-color: #A2BCC5;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .logoTitulo img{
+    margin: 10px 15px 4px 30px;
+    align-items: left;
+    width: 100px;
+    height: 100px;
+            
+    }
+    .tituloHeader{
+        margin-left: 70px;
+    }
+}
+
+/*-----------------------------------------MENU----------------------------------------------*/
+
+.grupoBotones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #A2BCC5;
+}
+
+.grupoBotones a:hover{
+    color: #049DD9;
+}
+
+.grupoBotones a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #D9E1E8;
+}
+
+
+body {
+    background-color: #D9E1E8;
+    margin: 0;
+}
+
+.form-container {
+    margin: 100px;
+    background-color: #D9E1E8;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    background-color: #049DD9;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+
+
+
+/*---------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+
+
+
+.footer{
+    background-color: #A2BCC5;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a:hover{
+    color: #049DD9;
+}
+.footer a{
+    color: #000;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: none;
+}
+.footer hr{
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
+

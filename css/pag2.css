@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------------------------------------------ENCABEZADO-----------------------------------------------------------------------------------*/
+
+#encabezado{
+    width: 100%;
+    background-color: #A2BCC5;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .logoTitulo img{
+    margin: 10px 15px 4px 30px;
+    align-items: left;
+    width: 100px;
+    height: 100px;
+            
+    }
+    .tituloHeader{
+        margin-left: 70px;
+    }
+}
+
+/*-----------------------------------------MENU----------------------------------------------*/
+
+.grupoBotones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #A2BCC5;
+}
+
+.grupoBotones a:hover{
+    color: #049DD9;
+}
+
+.grupoBotones a{
+    color: black;
+    text-decoration: none;
+}
+
+.gradient1{
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(to top, #D9E1E8, #A2BCC5 );
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+html, body {
+    background-color: #D9E1E8;
+}
+
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color:  white;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back{
+    background-color: #05C7F2 ;
+    color: white;
+    transform: rotateY(180deg);
+  }  
+
+
+
+
+/*---------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+
+.gradient2{
+    height: 150px;
+    background-image: linear-gradient(to top,#A2BCC5, #D9E1E8);
+}
+
+.footer{
+    background-color: #A2BCC5;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a:hover{
+    color: #049DD9;
+}
+.footer a{
+    color: #000;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: none;
+}
+.footer hr{
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
